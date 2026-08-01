@@ -1,0 +1,114 @@
+# ==============================================================================
+# 1. ENVIRONMENT VARIABLES & CREDENTIALS (NEVER COMMIT THESE)
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.pem
+*.key
+*.cert
+*.secret
+credentials.json
+aws/credentials
+
+# ==============================================================================
+# 2. DEPENDENCIES & PACKAGE MANAGERS
+# ==============================================================================
+# Node / Frontend / Backend
+node_modules/
+jspm_packages/
+web_modules/
+
+# Python Backend
+venv/
+.venv/
+env/
+.env/
+ENV/
+pyvenv.cfg
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Java / Maven / Gradle Backend
+.gradle/
+build/
+target/
+*.class
+
+# PHP / Composer
+vendor/
+
+# Ruby / Bundler
+.bundle/
+vendor/bundle/
+
+# ==============================================================================
+# 3. BUILD OUTPUTS & PRODUCTION ARTIFACTS
+# ==============================================================================
+# Frontend frameworks (React, Vue, Next.js, Vite, Angular)
+dist/
+out/
+build/
+.next/
+.nuxt/
+.svelte-kit/
+.docusaurus/
+.cache/
+.parcel-cache/
+
+# Mobile / Monorepo build tools
+.turbo/
+.expo/
+*.apk
+*.ipa
+*.app
+
+# ==============================================================================
+# 4. LOGS, DIAGNOSTICS & SYSTEM CACHES
+# ==============================================================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+coverage/
+.nyc_output/
+.eslintcache
+
+# ==============================================================================
+# 5. IDE, EDITOR, & SYSTEM-SPECIFIC FILES
+# ==============================================================================
+# Editors (VS Code, WebStorm, etc.)
+.vscode/*
+.vscode
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================================================================
+# 6. DATABASES & LOCAL STORAGE
+# ==============================================================================
+*.db
+*.sqlite
+*.sqlite3
+data/
+sqlite_data/
+.dump.sql
