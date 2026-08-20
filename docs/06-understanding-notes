@@ -1,0 +1,29 @@
+# Main Modules (Business side)
+ - Attendance
+ - Leave Management
+ - Assets Tracking / Management
+ - Operational Visibility
+
+ 
+
+will not give employess option to signup, only invite is required I and Abdul razaq guess
+
+Need to identify superior role (currently operations director)
+
+need to include time of attendance by employess, so that we can trigger monthly late coming warnings etc..
+
+PROBLEM:
+what if user signs in from home and marks it's attendance..
+
+FR=08, should be websockets there so that we check if manager viewed it or not, not rely on managers' manual set to viewed..
+
+FR-08: leave approvals ke multiple cases? jaise agr 3 din se zayada ha tou woh HR ke pas bhi jati, woh uska approval notifications wagira ka kch dekhna pre ga etc..
+
+preferred workflow is: implement basic level all modules, then start deeply into one by one module, (currently)
+
+uh when uh manager will assign an asset uh to any employ the employee will receive a notification the notification will have two options either to acknowledge or to report this asset issue to the operations 
+
+need to ask Farhan malik, can operation director directly approve or reject the leaves that are under 3 days. 
+
+need to discuss how we'll check for emergency leave?? and how it should bypass normal workflow
+

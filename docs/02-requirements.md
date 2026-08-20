@@ -37,55 +37,17 @@ The project follows the MoSCoW prioritization model.
 
 ### FR-001
 
-Title
-
-User Authentication
-
-Priority
-
-Must
-
-Description
-
-The system shall authenticate users before allowing access.
-
-Reason
-
-Protect operational data.
-
-Source
-
-General business requirement.
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| User Authentication | Must | The system shall authenticate users before allowing access. | Protect operational data. | General business requirement. |
 
 ---
 
 ### FR-002
 
-Role-Based Access Control
-
-Priority
-
-Must
-
-Description
-
-The system shall restrict functionality based on user roles.
-
-Roles currently identified:
-
-- Employee
-- Assistant Manager
-- Branch Manager
-- HR
-- Operations Director
-
-Reason
-
-Different operational responsibilities.
-
-Source
-
-DM-03
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Role-Based Access Control | Must | The system shall restrict functionality based on user roles.<br><br>Roles currently identified:<br><br>- Employee<br>- Assistant Manager<br>- Branch Manager<br>- HR<br>- Operations Director | Different operational responsibilities. | DM-03 |
 
 ---
 
@@ -95,81 +57,25 @@ DM-03
 
 ### FR-003
 
-Record Attendance
-
-Priority
-
-Must
-
-Description
-
-Employees shall record attendance digitally.
-
-Reason
-
-Replace paper register.
-
-Business Problem
-
-Multiple manual attendance transfers.
-
-Source
-
-DM-02
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Record Attendance | Must | Employees shall record attendance digitally.<br><br>Business Problem<br><br>Multiple manual attendance transfers. | Replace paper register. | DM-02 |
 
 ---
 
 ### FR-004
 
-Attendance Corrections
-
-Priority
-
-Must
-
-Description
-
-Authorized users may edit attendance records.
-
-Every modification shall record:
-
-- Previous value
-- New value
-- Editor
-- Timestamp
-- Reason
-
-Reason
-
-Payroll accountability.
-
-Source
-
-DM-04
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Attendance Corrections | Must | Authorized users may edit attendance records.<br><br>Every modification shall record:<br><br>- Previous value<br>- New value<br>- Editor<br>- Timestamp<br>- Reason | Payroll accountability. | DM-04 |
 
 ---
 
 ### FR-005
 
-Attendance Dashboard
-
-Priority
-
-Must
-
-Description
-
-Managers shall view daily attendance for their branch.
-
-Operations Director shall view attendance across all branches.
-
-Reason
-
-Reduce manual reporting.
-
-Source
-
-DM-03
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Attendance Dashboard | Must | Managers shall view daily attendance for their branch.<br><br>Operations Director shall view attendance across all branches. | Reduce manual reporting. | DM-03 |
 
 ---
 
@@ -179,87 +85,33 @@ DM-03
 
 ### FR-006
 
-Submit Leave Request
-
-Priority
-
-Must
-
-Description
-
-Employees shall submit leave requests digitally.
-
-Reason
-
-Replace paper process.
-
-Source
-
-DM-02
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Submit Leave Request | Must | Employees shall submit leave requests digitally. | Replace paper process. | DM-02 |
 
 ---
 
 ### FR-007
 
-Leave Approval Workflow
-
-Priority
-
-Must
-
-Description
-
-Leave requests shall follow configurable approval workflows.
-
-Business Rules determine required approvers.
-
-Source
-
-DM-04
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Leave Approval Workflow | Must | Leave requests shall follow configurable approval workflows.<br><br>Business Rules determine required approvers. |  | DM-04 |
 
 ---
 
 ### FR-008
 
-Leave Status Tracking
-
-Priority
-
-Must
-
-Description
-
-Employees shall track leave request status.
-
-Possible states include:
-
-- Pending
-- Approved
-- Rejected
-
-Source
-
-DM-04
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Leave Status Tracking | Must | Employees shall track leave request status.<br><br>Possible states include:<br><br>- Pending<br>- Approved<br>- Rejected |  | DM-04 |
 
 ---
 
 ### FR-009
 
-Approval Reminders
-
-Priority
-
-Should
-
-Description
-
-The system shall remind approvers of pending requests.
-
-Escalation rules should be configurable.
-
-Source
-
-DM-04
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Approval Reminders | Should | The system shall remind approvers of pending requests.<br><br>Escalation rules should be configurable. |  | DM-04 |
 
 ---
 
@@ -269,57 +121,25 @@ DM-04
 
 ### FR-010
 
-Asset Assignment
-
-Priority
-
-Should
-
-Description
-
-Managers shall assign company assets to employees.
-
-Source
-
-DM-03
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Asset Assignment | Should | Managers shall assign company assets to employees. |  | DM-03 |
 
 ---
 
 ### FR-011
 
-Asset Handover Confirmation
-
-Priority
-
-Should
-
-Description
-
-Both employee and manager shall acknowledge asset handovers.
-
-Condition shall be recorded.
-
-Source
-
-DM-04
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Asset Handover Confirmation | Should | Both employee and manager shall acknowledge asset handovers.<br><br>Condition shall be recorded. |  | DM-04 |
 
 ---
 
 ### FR-012
 
-Asset Inventory
-
-Priority
-
-Could
-
-Description
-
-The system shall maintain current asset ownership.
-
-Source
-
-DM-03
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Asset Inventory | Could | The system shall maintain current asset ownership. |  | DM-03 |
 
 ---
 
@@ -329,25 +149,9 @@ DM-03
 
 ### FR-013
 
-Operational Dashboard
-
-Priority
-
-Must
-
-Display:
-
-- Today's absences
-- Pending approvals
-- Understaffed branches
-
-Reason
-
-Reduce daily coordination effort.
-
-Source
-
-DM-03
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Operational Dashboard | Must | Display:<br><br>- Today's absences<br>- Pending approvals<br>- Understaffed branches | Reduce daily coordination effort. | DM-03 |
 
 ---
 
@@ -357,26 +161,9 @@ DM-03
 
 ### FR-014
 
-Audit History
-
-Priority
-
-Must
-
-The system shall record all actions affecting:
-
-- Attendance
-- Leave
-- Asset ownership
-- Approvals
-
-Reason
-
-Operational accountability.
-
-Source
-
-DM-04
+| Title | Priority | Description | Reason | Source |
+|------|----------|-------------|--------|--------|
+| Audit History | Must | The system shall record all actions affecting:<br><br>- Attendance<br>- Leave<br>- Asset ownership<br>- Approvals | Operational accountability. | DM-04 |
 
 ---
 
